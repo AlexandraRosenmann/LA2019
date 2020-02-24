@@ -1,0 +1,758 @@
+body{
+  background-color: white;
+overflow-x: hidden;
+}
+
+.flex-container {
+  display: grid;
+  flex-basis: 100%;
+
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+    
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+.flex-item:nth-of-type(1) { flex-grow: 1; }
+.flex-item:nth-of-type(2) { flex-grow: 1; }
+.flex-item:nth-of-type(3) { flex-grow: 1; }
+.flex-item:nth-of-type(4) { flex-grow: 1; }
+
+
+.flip-card_LosAngeles_1{
+  line-height: 300px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+   position: relative;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  display: inline-block;
+}
+.flip-card_LosAngeles_2{
+  line-height: 300px;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+   position: relative;
+  
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  display : inline-block
+}
+
+.flip-card-inner_LosAngeles_1{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: inline-block;
+  
+}
+
+.flip-card_LosAngeles_1:hover .flip-card-inner_LosAngeles_1 {
+  transform: rotateY(180deg);
+    position: relative;
+  display: inline-block;
+}
+
+.flip-card-front_LosAngeles_1, 
+.flip-card-front_LosAngeles_2, 
+.flip-card-front_LosAngeles_3, 
+.flip-card-front_LosAngeles_4, 
+.flip-card-front_LosAngeles_5,
+.flip-card-front_LosAngeles_6,
+.flip-card-front_LosAngeles_7,
+.flip-card-front_LosAngeles_8,
+.flip-card-front_LosAngeles_9,
+.flip-card-front_LosAngeles_10,
+.flip-card-front_LosAngeles_11,
+.flip-card-front_LosAngeles_12,
+.flip-card-front_LosAngeles_13,
+.flip-card-front_LosAngeles_14,
+.flip-card-front_LosAngeles_15,
+.flip-card-front_LosAngeles_16,
+.flip-card-front_LosAngeles_17,
+.flip-card-front_LosAngeles_18,
+.flip-card-front_LosAngeles_19,
+.flip-card-front_LosAngeles_20,
+.flip-card-front_LosAngeles_21,
+
+.flip-card-back_LosAngeles_1, 
+.flip-card-back_LosAngeles_2, 
+.flip-card-back_LosAngeles_3, 
+.flip-card-back_LosAngeles_4, 
+.flip-card-back_LosAngeles_5, 
+.flip-card-back_LosAngeles_6, 
+.flip-card-back_LosAngeles_7, 
+.flip-card-back_LosAngeles_8, 
+.flip-card-back_LosAngeles_9, 
+.flip-card-back_LosAngeles_10, 
+.flip-card-back_LosAngeles_11, 
+.flip-card-back_LosAngeles_12, 
+.flip-card-back_LosAngeles_13, 
+.flip-card-back_LosAngeles_14, 
+.flip-card-back_LosAngeles_15, 
+.flip-card-back_LosAngeles_16, 
+.flip-card-back_LosAngeles_17, 
+.flip-card-back_LosAngeles_18, 
+.flip-card-back_LosAngeles_19, 
+.flip-card-back_LosAngeles_20, 
+.flip-card-back_LosAngeles_21{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: inline-block;
+  
+}
+
+.flip-card-back_LosAngeles_1 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5319.jpg) no-repeat 0, 0 			#655500;
+  background-blend-mode: multiply;
+  background-size: 135%;
+background-size: cover;
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+
+  
+}
+
+.flip-card-front_LosAngeles_1 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5327.jpg)no-repeat 0, 0;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position: top center;
+
+
+}
+.flip-card-back_LosAngeles_3 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5631.jpg)no-repeat 0, 0 #933e00;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+;
+}
+.flip-card-front_LosAngeles_3 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5346.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  center top;
+
+}
+.flip-card-back_LosAngeles_4 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5361.jpg)no-repeat 0, 0 #3a8547;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+;
+
+  }
+
+.flip-card-front_LosAngeles_4 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5365.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  left top;
+
+}
+
+.flip-card-back_LosAngeles_5 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5379.jpg)no-repeat 0, 0 #405Afa;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+;
+
+  }
+
+.flip-card-front_LosAngeles_5 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5378.jpg);
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  center top;
+
+}
+
+.flip-card-back_LosAngeles_6 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5395.jpg)no-repeat 0, 0 #804230;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+;
+}
+  
+
+.flip-card-front_LosAngeles_6 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5387.jpg)no-repeat 0, 0 ;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  -68px top;
+
+}
+
+.flip-card-back_LosAngeles_7 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5406.jpg)no-repeat 0, 0 #3F4D5F ;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+;
+}
+  
+
+.flip-card-front_LosAngeles_7 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5404.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  right top;
+
+}
+
+
+.flip-card-back_LosAngeles_8 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5431.jpg)no-repeat 0, 0 #4169E8	;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+      background-position: top;
+
+;
+}
+  
+
+.flip-card-front_LosAngeles_8 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5443.jpg)no-repeat 0, 0 ;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  center top;
+
+}
+
+
+.flip-card-back_LosAngeles_9 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5650.jpg)no-repeat 0, 0 #71637D	;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+;
+
+  }
+
+.flip-card-front_LosAngeles_9 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5468.jpg)no-repeat 0, 0 ;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  right top;
+
+}
+
+.flip-card-back_LosAngeles_10 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5480.jpg)no-repeat 0, 0 #9b610f;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+;
+}
+
+.flip-card-front_LosAngeles_10 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5479.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  center top;
+
+}
+.flip-card-back_LosAngeles_11 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5539.jpg)no-repeat 0, 0 #3B5300;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+    background-position: top;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+;
+
+}
+
+.flip-card-front_LosAngeles_11 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5541.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  left top;
+
+}
+
+.flip-card-back_LosAngeles_12 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5518.jpg)no-repeat 0, 0 #9C0000;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: right;
+  width:300px;
+    height:300px;
+;
+}
+
+.flip-card-front_LosAngeles_12 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5517.jpg)no-repeat 0, 0 ;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  right top;
+
+}
+.flip-card-back_LosAngeles_13 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5623.jpg)no-repeat 0, 0 #800080;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: right;
+  width:300px;
+    height:300px;
+;
+}
+
+.flip-card-front_LosAngeles_13 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5569.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  left top;
+
+}
+.flip-card-back_LosAngeles_14 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5664.jpg)no-repeat 0, 0 #654321;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: top;
+  width:300px;
+    height:300px;
+;
+}
+
+.flip-card-front_LosAngeles_14 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5652.jpg)no-repeat 0, 0 ;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  center top;
+
+}
+.flip-card-back_LosAngeles_15 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5681.jpg)no-repeat 0, 0 	#9A0A35;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: top left;
+  width:300px;
+    height:300px;
+;
+}
+
+.flip-card-front_LosAngeles_15 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5674.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  center top;
+
+}
+.flip-card-back_LosAngeles_16 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5705.jpg)no-repeat 0, 0 #8b6000;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: center top;
+  width:300px;
+    height:300px;
+;
+}
+
+
+.flip-card-front_LosAngeles_16 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5700.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  -35px top;
+
+}
+
+.flip-card-back_LosAngeles_17 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5755.jpg)no-repeat 0, 0 #553990;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: center top;
+  width:300px;
+    height:300px;
+;
+
+}
+.flip-card-front_LosAngeles_17 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5768.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  -82px top;
+
+}
+
+.flip-card-back_LosAngeles_18 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5789.jpg)no-repeat 0, 0 #FF1129;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: center top;
+  width:300px;
+    height:300px;
+;
+
+}
+.flip-card-front_LosAngeles_18 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5788.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  left top;
+
+}
+.flip-card-back_LosAngeles_19 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5817.jpg)no-repeat 0, 0 #9809ef;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+  width:300px;
+    height:300px;
+        background-position: right top;
+
+;
+
+}
+.flip-card-front_LosAngeles_19 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5823.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  center bottom;
+
+}
+.flip-card-back_LosAngeles_20 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5836.jpg)no-repeat 0, 0 #372346;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: center top;
+  width:300px;
+    height:300px;
+;
+
+}
+.flip-card-front_LosAngeles_20 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5829.jpg)no-repeat 0, 0;
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  -37px top;
+
+}
+.flip-card-back_LosAngeles_21 {
+  background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5863.jpg)no-repeat 0, 0 #9b4008;
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: 135%;
+
+  transform: rotateY(180deg);
+      background-position: right top;
+  width:300px;
+    height:300px;
+;
+}
+.flip-card-front_LosAngeles_21 {
+    background: url(https://raw.githubusercontent.com/AlexandraRosenmann/LA2019/master/IMG_5849.jpg);
+  background-blend-mode: screen;
+  display: inline-block;
+  background-size: 135%;
+  width:300px;
+    height:300px;
+        background-position:  -47px top;
+
+}
+
+.flip-card-back_LosAngeles_22 {
+  background-blend-mode: multiply;
+background-size: cover;
+background-size: .1%;
+
+  transform: rotateY(180deg);
+      background-position: right top;
+  width:300px;
+    height:1px;
+;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: block;
+  padding: 85px 60px;
+  position: relative;
+}
+a:after {   
+  color: #fff;
+  background: none repeat scroll 0 0 transparent;
+  bottom: 10;
+  content: "";
+  display: block;
+  height: 2px;
+    width: 100px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+h2{
+    text-align: center;
+   color: #00000;
+   font-weight: 10;
+  font-size: 15px;
+  padding: 0px; 
+  margin: -200px -200px -120px;
+
+    font-family: 'Source Serif Pro', serif;
+}
+h2:hover{
+  color: yellow;
+    text-align: center;
+
+}
+.ml1 {
+color:#000000;
+ font-weight: 20;
+  font-size: 80px;
+  padding: 0px; 
+  margin: 0px;
+    font-family: 'Source Serif Pro', serif;
+    z-index: 200;
+
+}
+.ml3 {
+ color:#00000;
+  font-weight: 20;
+  font-size: 300px;
+  margin: 0px 0px 0px;
+
+    font-family: 'Source Serif Pro', serif;
+    z-index: 200;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0em;
+  padding-right: 0em;
+  padding-bottom: 0em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0;
+}
+
+.ml4 {
+ font-weight: 20;
+  font-size: 100px;
+  padding: 0px; 
+  margin: 0px;
+    font-family: 'Source Serif Pro', serif;
+    z-index: 200;
+
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  opacity: 0; 
+}
+.ml2 {
+color:#000000;
+  font-weight: 20;
+  font-size: 40.5px;
+  padding: 0px; 
+  margin: 0px;
+
+    font-family: 'Source Serif Pro', serif;
+    z-index: 200;
+
+}
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+p{
+    text-align: center;
+    font-weight: 100;
+  font-size: 24px;
+    margin: -225px;
+    margin-bottom: -10.2em; // increase white space after a paragraph
+
+  z-index: 100;
+}
+
+p2{
+     text-align: center;
+    font-weight: 100;
+  font-size: 17px;
+  display: block;
+  z-index: 100;
+}
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(0,.5,1)}
+    to {opacity: 1;}
+}
+#fade-in-element {
+  animation: fade-in 5.5s;
+}
+#hidden {
+  opacity: 0;
+}
